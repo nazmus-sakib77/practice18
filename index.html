@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/meadia.css">
+
+    <title>Practice-18</title>
+  </head>
+  <body>
+<section class="header mt-5">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 mb-5">
+      <!-- carousel slide -->
+    <div id="cexam1" class="carousel carousel-dark slide carousel-fade"data-bs-touch="false" 
+    data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#cexam1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#cexam1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#cexam1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#cexam1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active "data-bs-interval="4000">
+
+          <img src="img/laptop.jpg" class="d-block w-100" alt="imglaptop">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+
+          <img src="img/banner.jpg" class="d-block w-100" alt="imgbanner">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5>Second  slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+
+          <img src="img/laptop.jpg" class="d-block w-100" alt="imglaptop">
+          <div class="carousel-caption d-none d-md-block ">
+           <h5>Third   slide label</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+          </div>
+          
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+
+          <img src="img/banner.jpg" class="d-block w-100" alt="imgbanner">
+          <div class="carousel-caption d-none d-md-block ">
+            <h5>Four   slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+           </div>
+        </div>
+      </div>
+      
+      <!-- carousel button -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#cexam1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cexam1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      
+      <!-- carousel button -->
+    </div>
+    
+      <!-- carousel slide -->
+
+    </div>
+
+  
+  </div>
+
+  </div>
+
+</section>
+<section class="body mb-5">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-lg-6">
+
+
+
+      <div class="buuton ">
+        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#colp1" aria-expanded="false" aria-controls="colp1">
+          Button 
+        </button> 
+     
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#colp2" aria-expanded="false" aria-controls="colp2">
+            Button 
+          </button>
+          <div class="collapse" id="colp1">
+            <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, mollitia!
+            </div>
+          </div>
+          
+          <div class="collapse" id="colp2">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div> 
+        
+       </div>
+       <div class="col-lg-6">
+
+       <div class="accordion accordion-flush" id="acor1">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flh1">
+            <button class="accordion-button collapsed  border border-danger btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#fco1" aria-expanded="false" aria-controls="fco1">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="fco1" class="accordion-collapse collapse" aria-labelledby="flh1" data-bs-parent="#acor1">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flh2">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#fco2" aria-expanded="false" aria-controls="fco2">
+              Accordion Item #2
+              <span class="badge bg-danger ">4</span>
+            </button>
+            
+          </h2>
+          <div id="fco2" class="accordion-collapse collapse" aria-labelledby="flh2" data-bs-parent="#acor1">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="prot">
+  <div class="container">
+    <div class="row">
+      <!-- card prot -->
+      <div class="col-lg-4 ">
+        <div class="shadow" >
+          <img src="img/banner.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card prot -->
+      <div class="col-lg-4 ">
+        <div class="card shadow" >
+          <img src="img/laptop.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- card prot -->
+      <div class="col-lg-4">
+        <div class="card shadow">
+          <img src="img/banner.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+      
+    
+      <!-- card prot -->
+    </div>
+  </div>
+</section>
+
+<section class="rooot">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#stBD1">
+    Launch  modal
+   </button>
+
+<!-- Modal -->
+<div class="modal fade" id="stBD1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="stbdl1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stbdl1">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="card " >
+          <img src="img/laptop.jpg" class="card-img-top w-100" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, magnam.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+  
+    <script src="popper.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
